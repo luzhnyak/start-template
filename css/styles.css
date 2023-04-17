@@ -1,0 +1,96 @@
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================== /UTILITES =====================*/
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ===================== /UTILITES =====================*/
+
+/* ===================== COMPONENTS =====================*/
+/* ===================== /COMPONENTS =====================*/
+
+/* ===================== HEADER =====================*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  margin-right: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-btn {
+  margin-left: auto;
+}
+/* ===================== /HEADER =====================*/
+
+/* ===================== HERO =====================*/
+/* ===================== /HERO =====================*/
+
+/* ===================== SECTION =====================*/
+
+.icons-list {
+  display: flex;
+  gap: 20px;
+}
+
+/* ===================== /SECTION =====================*/
+
+/* ===================== /FOOTER =====================*/
+/* ===================== /FOOTER =====================*/
