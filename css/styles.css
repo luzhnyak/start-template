@@ -51,6 +51,24 @@ img {
 /* ===================== /UTILITES =====================*/
 
 /* ===================== COMPONENTS =====================*/
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: rgb(73, 153, 233);
+  border: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn svg {
+  fill: currentColor;
+}
+
 /* ===================== /COMPONENTS =====================*/
 
 /* ===================== HEADER =====================*/
@@ -58,6 +76,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  padding: 10px 0;
 }
 
 .page-nav {
@@ -81,16 +100,44 @@ img {
 /* ===================== /HEADER =====================*/
 
 /* ===================== HERO =====================*/
+
+.hero-container {
+  padding: 150px 0;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+}
+
 /* ===================== /HERO =====================*/
 
 /* ===================== SECTION =====================*/
 
+.section-container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
 .icons-list {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
 /* ===================== /SECTION =====================*/
 
 /* ===================== /FOOTER =====================*/
+
+.footer-container {
+  padding: 50px 0;
+  text-align: center;
+  background-color: aliceblue;
+}
+
 /* ===================== /FOOTER =====================*/
